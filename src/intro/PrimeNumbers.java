@@ -4,6 +4,7 @@
  */
 package intro;
 
+import java.util.Scanner;
 /**
  *
  * @author Yusuf
@@ -14,7 +15,9 @@ public class PrimeNumbers {
      * @param args the command line arguments
      */
     public static void main(String[] args) {    
-         int number  = 2;
+        Scanner input = new Scanner(System.in);
+        System.out.println("Lutfen Bir Deger Giriniz");
+         double number = input.nextDouble();
          boolean isPrime = true;
          
          if(number==1){
